@@ -1,0 +1,16 @@
+{
+  "providers": ["php"],
+  "phpExtensions": [
+    "soap",
+    "pdo_mysql",
+    "mbstring",
+    "bcmath",
+    "gd",
+    "ctype",
+    "dom",
+    "fileinfo",
+    "openssl",
+    "tokenizer",
+    "xml"
+  ]
+}
