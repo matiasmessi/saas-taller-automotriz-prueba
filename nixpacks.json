@@ -1,16 +1,17 @@
 {
   "providers": ["php"],
-  "phpExtensions": [
-    "soap",
-    "pdo_mysql",
-    "mbstring",
-    "bcmath",
-    "gd",
-    "ctype",
-    "dom",
-    "fileinfo",
-    "openssl",
-    "tokenizer",
-    "xml"
-  ]
+  "variables": {
+    "NIXPACKS_PHP_FALLBACK_VERSION": "8.2"
+  },
+  "phases": {
+    "setup": {
+      "nixPkgs": [
+        "php82",
+        "php82Extensions.soap",
+        "php82Extensions.pdo_mysql",
+        "php82Extensions.zip",
+        "php82Extensions.bcmath"
+      ]
+    }
+  }
 }

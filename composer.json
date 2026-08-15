@@ -56,7 +56,10 @@
             "pestphp/pest-plugin": true,
             "php-http/discovery": true
         },
-        "audit-block": false
+        "audit-block": false,
+        "platform": {
+            "php": "8.2.33"
+        }
     },
     "minimum-stability": "stable",
     "prefer-stable": true
