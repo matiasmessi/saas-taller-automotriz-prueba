@@ -7,7 +7,7 @@
     "require": {
         "php": "^8.2",
         "greenter/lite": "^5.3",
-        "laravel/framework": "^11.9",
+        "laravel/framework": "^11.43",
         "laravel/tinker": "^2.9"
     },
     "require-dev": {
@@ -55,7 +55,8 @@
         "allow-plugins": {
             "pestphp/pest-plugin": true,
             "php-http/discovery": true
-        }
+        },
+        "audit-block": false
     },
     "minimum-stability": "stable",
     "prefer-stable": true
